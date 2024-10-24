@@ -278,8 +278,7 @@ roundRect(ctx :CanvasRenderingContext2D, x : number, y: number, width: number, h
 }
 
 
-public showAlert(e:MouseEvent) {
- 
+public onClick(e:MouseEvent) {
   this.eventMouseClickX = e.clientX;
   this.eventMouseClickY = e.clientY
 }

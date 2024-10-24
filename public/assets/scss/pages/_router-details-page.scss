@@ -1,0 +1,163 @@
+.router-details-page {
+.rounting-container {
+  .item {
+
+    border: 1px solid $primary-color;
+    border-radius: $radius;
+    padding:  rem(10) ;
+    width: 100%;
+    .text {
+      font-size: $fs-12;
+    }
+    .icon {
+      color: var(--primary-color);
+      margin-inline-end: rem(5);
+    }
+    .group-icon {
+      span {
+        cursor: pointer;
+        transition: $transition-3s;
+        &:hover {
+          transform: scale(1.2);
+          &.edit {
+            color: var(--primary-color);
+          }
+          &.delete {
+            color: var(--danger-color);
+          }
+        }
+      }
+    }
+    span.dot {
+      width: rem(5);
+      height: rem(5);
+      background-color: var(--primary-color);
+      border-radius: 50%;
+      display: inline-block;
+      margin-inline: rem(2);
+    }
+    &.condition-box {
+      background: var(--primary-light-color);
+      background: $primary-light-color;
+      border-color: #BACBDF;
+    }
+  }
+  .add-condition {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+}
+.content {
+  min-height: 71svh;
+  .content-box {
+    background: var(--gray-color-10) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--gray-color-20);
+    border-radius: $radius;
+    padding: rem(20);
+
+
+    .box-router {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      .title-box {
+        padding:  rem(20);
+        background-color: var(--white-color);
+        border-start-start-radius: $radius;
+        border-end-start-radius: $radius;
+        border-inline-start: 4px solid ;
+        border-bottom: 1px solid;
+        border-color: var(--primary-color);
+        height: rem(100);
+        position: relative;
+        font-size: rem(36);
+        color: var(--primary-color);
+        font-weight: bold;
+
+      }
+      .body-box {
+        padding: rem(20);
+        background-color: var(--white-color);
+        flex-grow: 2;
+        border: 1px solid var(--white-blue-color);
+        border-radius: $radius;
+        text-align: center;
+        min-height: rem(125);
+
+        .row-action {
+          .item {
+            .icon {
+              width: 25px;
+              height: 25px;
+              background-color: var(--primary-color);
+              color: var(--white-color);
+              display: grid;
+              place-items: center;
+              border-radius: 50%;
+            }
+            span {
+              margin-inline: rem(5);
+              color: var(--primary-color);
+              i {
+                position: relative;
+                top: 3px;
+              }
+            }
+            span.dot {
+              width: rem(5);
+              height: rem(5);
+              background-color: var(--primary-color);
+              border-radius: 50%;
+              display: inline-block;
+            }
+          }
+        }
+        .item {
+          background: var(--primary-light-color);
+          border: 1px solid var(--white-blue-color);
+          border-radius: $radius;
+          padding:  rem(10) rem(15);
+          width: 90%;
+          .icon {
+            color: var(--primary-color);
+            margin-inline-end: 10px;
+          }
+          .group-icon {
+            span {
+              cursor: pointer;
+              transition: $transition-3s;
+              &:hover {
+                &.edit {
+                  color: var(--primary-color);
+                }
+                &.delete {
+                  color: var(--danger-color);
+                }
+              }
+            }
+          }
+        }
+        &.new-empty {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .add-action {
+          color: var(--primary-color);
+          cursor: pointer;
+          i {
+            font-size: rem(36);
+            transition: $transition-3s;
+          }
+          &:hover {
+            i {
+
+              text-shadow: 0 0 15px rgba($black-color , .2);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}

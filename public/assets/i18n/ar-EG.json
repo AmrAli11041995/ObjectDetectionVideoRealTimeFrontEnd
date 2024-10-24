@@ -1,0 +1,397 @@
+{
+  "NAME": "Name",
+  "ID": "Id",
+  "PLAYLIST_URL": "Playlist Url",
+  "NO_PLAYLIST_FOUND": "No playlist found",
+  "VIEW_DETAILS": "View details",
+  "CONFIGURATIONS": "Configurations",
+  "DELETE": "Delete",
+  "NO_DATA_FOUND": "No data found",
+  "TEST_HEADER": "test",
+  "edit": "edit",
+  "general": {
+    "error_messages": {
+      "alpha_numeric_en_special": "This field must contain english characters or special characters or numbers only",
+      "this_field_is_required": "this field is required",
+      "max_length": "This field must not contain Characters more than",
+      "min_length": "This field must not contain Characters less than",
+      "white_space_not_valid": "whitespace isnot a valid value",
+      "invalid_email": "Invalid Email",
+      "invalid_phone_number": "Invalid Phone Number",
+      "invalid_from_to_period": "invalid from.. to period",
+      "date_less_than_or_equal_today": "date must be less than or equal today",
+      "load_error": "Error loading initial data",
+      "numbers_20_digit_max": "this field not accept more than 20 digit",
+      "min": "min value field is  ",
+      "digits_only": "Digits only",
+      "no_space_allowed": "no space allowed",
+      "allow_decimal_numbers": "allow right decimal numbers only",
+      "numbers_only": "Allow numbers only"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "add": "Add",
+      "save_changes": "Save Changes",
+      "clear": "Clear",
+      "apply": "Apply",
+      "edit": "Edit",
+      "delete": "Delete",
+      "back": "back",
+      "next": "next",
+      "close": "close",
+      "save": "save",
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "messages": {
+      "yes": "Yes",
+      "no": "No",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "export_to_excel_confirmation_message": "Do you want to export this data?"
+    },
+    "toaster": {
+      "information": "Information",
+      "warning": "Warning",
+      "error": "Error",
+      "success": "Success"
+    }
+  },
+  "connector": {
+    "add_connector": "Add Connector",
+    "connecto_list": "Connector list",
+    "connector_form": {
+      "add_connector": "Add Connector",
+      "connector_name": "Connector Name",
+      "payment_network": "Payment Network",
+      "api_key": "API Key",
+      "secret_key": "Secret Key",
+      "public_key": "Public Key",
+      "edit_connector": "Edit Connector"
+    },
+    "connector_alerts": {
+      "confirm_add_connector": "you are about to add connector",
+      "added_successfully": "connector added successfully",
+      "cancel_add_connctor": "are you sure you want to cancel adding this connector?",
+      "cancel_edit_connctor": "are you sure you want to cancel editing this connector?",
+      "confirm_edit_connector": "you are about to edit connector",
+      "edited_successfully": "connector edited successfully",
+      "confirm_activate_connector": "You are about to activate this connector",
+      "activate_connector_successfully": "connector activated successfully",
+      "confirm_deactivate_connector": "By setting this Connector to 'InActive', all the MIDs on this bank will be blocked",
+      "deactivate_connector_successfully": "connector deactivated successfully",
+      "confirm_Last_active_connector": "Please note this is the only active connector. Are you sure you want to proceed? This will block all of the incoming transactions."
+
+    },
+    "connector_list": {
+      "id": "id",
+      "name": "Connector's Name",
+      "payment_network": "Network",
+      "createdDate": "Creation Date",
+      "lastModified": "Modification Date",
+      "lastModifiedByName": "Last edited by",
+      "isActive": "Status",
+      "connector_header": "Connector List"
+    },
+    "connector_filter": {
+      "enter_id_value": "Enter id value",
+      "id": "Id",
+      "name": "Name",
+      "enter_Name_value": "Enter name value",
+      "payment_network": "Payment network",
+      "select_value": "Select payment network",
+      "created_date": "Created date",
+      "creation_date_placeholder": "Chosse date range",
+      "modified_date": "Modified date",
+      "modification_date_placeholder": "Chosse date range",
+      "modified_by": "Modified by",
+      "modified_by_placeholder": "Enter name",
+      "status": "status",
+      "status_placeholder": "choose status"
+    }
+  },
+  "general_text_placeholder": "Enter text",
+  "general_ddl_placeholder": "Choose a value",
+  "merchant": {
+    "messages": {
+      "merchant_added": "merchant Added Successfully!",
+      "cancel_add_message": "are you sure you want to cancel adding a merchant ?",
+      "cancel_edit_message": "are you sure you want to cancel editing a merchant ?",
+      "add_message": "are you sure you want to add merchant ?",
+      "edit_message": "are you sure you want to edit merchant ?",
+      "merchant_edited": "merchant Edited Successfully!",
+      "merchant_status_update_activate_success": "Merchant Activated Successfully",
+      "merchant_status_update_deactivate_success": "Merchant De-Activated Successfully"
+    },
+    "add_merchant": {
+      "ui": {
+        "add_merchant": "Add Merchant",
+        "owner_info": "Owner Info",
+        "merchant_name": "Merchant Name",
+        "business_type": "Business Type",
+        "owner_name": "Name",
+        "owner_email": "Email",
+        "owner_phone_number": "Phone No.",
+        "basic_info": "Basic Info",
+        "country": "Country",
+        "city": "City",
+        "zipcode": "Zipcode",
+        "address": "Address",
+        "select_country": "Select Country",
+        "select_city": "Select City"
+      }
+    },
+    "edit_merchant": {
+      "ui": {
+        "title": "Edit Configuration"
+      }
+    },
+    "merchant_list": {
+      "id": "ID",
+      "name": "Merchant Name",
+      "business_type": "Business Type",
+      "owner_email": "Email",
+      "created_date": "Creation Date",
+      "last_modified": "Modification Date",
+      "last_modified_Name": "Last Edited By",
+      "status": "Status",
+      "merchants": "Merchants"
+    },
+    "merchant_filter": {
+      "enter_id_value": "Enter id value",
+      "enter_Name_value": "Enter name value",
+      "enter_email_value": "Enter Email value",
+      "bussines_type_select_value": "Select Bussines Type",
+      "creation_date_placeholder": "Chosse date range",
+      "modification_date_placeholder": "Chosse date range",
+      "modified_by_placeholder": "Enter modified by",
+      "status_placeholder": "choose status",
+      "id": "ID",
+      "name": "Merchant Name",
+      "bankSectorName": "Business Type",
+      "ownerName": "Owner Name",
+      "ownerEmail": "Owner Email",
+      "isActive": "Status",
+      "createdDate": "Creation Date",
+      "lastModified": "Modification Date",
+      "lastModifiedByName": "Last edited by"
+    },
+    "mid_list": {
+      "id": "MID",
+      "name": "MID Name",
+      "connector_name": "Connector Name",
+      "mcc_category": "MCC Category",
+      "created_date": "Creation Date",
+      "last_modified": "Modification Date",
+      "last_edited_by": "Last Edited By",
+      "mids": "MIDs"
+    },
+    "mid_filter": {
+      "enter_id_value": "Enter MID value",
+      "enter_name_value": "Enter MID Name value",
+      "enter_connector_name_value": "Enter Connector Name value",
+      "enter_mcc_category_value": "Enter MCC Category value",
+      "creation_date_placeholder": "Choose creation date range",
+      "modification_date_placeholder": "Choose modification date range",
+      "last_edited_by_placeholder": "Enter Last Edited By value",
+      "mid": "MID",
+      "name": "MID Name",
+      "connectorName": "Connector Name",
+      "bankSectorName": "MCC Category",
+      "createdDate": "Creation Date",
+      "lastModified": "Modification Date",
+      "lastModifiedByName": "Last Edited By"
+    },
+    "view_mid": {
+      "mid_details": "MID Details",
+      "basic_info": "Basic Info",
+      "mid": "MID",
+      "mid_name": "MID Name",
+      "connector": "Connector",
+      "mcc": "MCC"
+    }
+  },
+  "merchant_mid": {
+    "mid_form": {
+      "add_mid": "Add MIDs",
+      "basic_info": "Basic Info",
+      "mid_name": "MID Name",
+      "connector": "Connector",
+      "connector_name": "Connector Name",
+      "choose_connector": "choose connector",
+      "mid": "MID",
+      "mcc": "MCC",
+      "mcc_name": "MCC Name",
+      "choose_mcc": "choose MCC",
+      "currency": "Currency",
+      "currency_name": "Currency Name",
+      "limit": "Limit",
+      "period": "Period",
+      "add_currency": "Add Currency",
+      "EGP": "EGP",
+      "edit_mid": "Edit MID"
+
+
+    },
+    "mid_alerts": {
+      "confirm_add_mid": "you are about to add MID",
+      "added_successfully": "MID added successfully",
+      "cancel_add_mid": "are you sure you want to cancel adding this MID?",
+      "confirm_delete_currency": "are you sure you want to delete currency?",
+      "deleted_successfully": "Currency Deleted successfully",
+      "add_one_currency_at_least": "at least you should add one currency to mid",
+      "confirm_edit_mid": "you are about to Edit MID",
+      "edited_successfully": "MID Edited successfully",
+      "cancel_edit_mid": "are you sure you want to cancel editing this MID?"
+
+    }
+  },
+  "order_details": {
+    "basic_info": {
+      "order_details": "Order Details",
+      "basic_info": "Basic Info",
+      "order_id": "Order ID",
+      "creation_date": "Creation Date",
+      "payment_method": "Payment Method",
+      "currency": "Currency",
+      "update_date": "Update Date",
+      "status": "Status",
+      "merchant_order_id": "Merchant Order Id",
+      "merchant_name": "Merchant Name",
+      "total_amount": "Total Amount",
+      "mid": "MID"
+
+    },
+    "buyer_details": {
+      "buyer_details": "Buyer Details",
+      "buyer_id": "Buyer ID",
+      "email_address": "Email Address",
+      "state": "State",
+      "phone_number": "Phone Number",
+      "buyer_name": "Buyer Name",
+      "country": "Country",
+      "city": "City",
+      "buyerIP": "IP"
+    },
+    "card_details": {
+      "card_details": "Card Details",
+      "card_holder_name": "Card Holder Name",
+      "card_number": "Card Number",
+      "card_expiration_date": "Card Expiration Date",
+      "card_brand": "Card Brand",
+      "issuing_bank": "Issuing Bank",
+      "issuingBankCountry":"Country Issuing Bank"
+    },
+    "transactions": {
+      "operations": "Operations",
+      "id": "ID",
+      "operation_type": "Operation Type",
+      "creation_date": "Creation Date",
+      "modification_date": "Modification Date",
+      "status": "Status",
+      "currency": "Currency",
+      "amount": "Amount",
+      "decline_type": "Decline Type",
+      "reason": "Reason",
+      "gateway_code": "Gateway Code"
+    }
+  },
+  "order": {
+    "listing": {
+      "order_id": "Order Id",
+      "merchant_id": "Merchant Id",
+      "merchant_name": "Merchant Name",
+      "total_amount": "Total Amount",
+      "order_currency": "Order Currency",
+      "creation_date": "Creation Date",
+      "modification_date": "Modification Date",
+      "status": "Status",
+      "actions": "Actions",
+      "order_listing_header": "Orders List"
+    },
+    "filters": {
+      "order_id_placeholder": "Enter order id",
+      "merchant_name": "Enter merchant name",
+      "merchant_id": "Enter merchant id",
+      "status": "Choose order status"
+    }
+  },
+  "smart_routing": {
+    "add_routing_scheme": {
+      "adding_routing_scheme_header": "Add routing scheme",
+      "scheme_name": "name",
+      "scheme_description": "Description"
+    },
+    "edit_routing_scheme": {
+      "edit_routing_scheme_header": "Edit routing scheme",
+      "scheme_name": "name",
+      "scheme_description": "Description"
+    },
+    "routing_scheme_list": {
+      "name": "Name",
+      "description": "Description",
+      "status": "Status",
+      "creation_date": "Creation Date",
+      "modification_date": "Modification Date"
+    },
+    "routing_scheme_filter": {
+      "name": "Name",
+      "description": "Description",
+      "status": "Status",
+      "creation_date": "Creation Date",
+      "modification_date": "Modification Date",
+      "enter_name_value": "Enter name",
+      "enter_description_value": "Enter description",
+      "enter_status_value": "select status",
+      "creation_date_placeholder": "Chosse date range",
+      "modification_date_placeholder": "Chosse date range"
+    },
+    "toggle_activation": {
+      "confirm_activation": "are you sure you want to activate this scheme?",
+      "confirm_deactivation": "are you sure you want to deactivate this scheme?",
+      "route_activated_successfully": "activated successfully",
+      "route_deactivated_successfully": "deactivated successfully",
+      "confirm_last_route_deactivation": "Please note this is the only active routing scheme. Are you sure you want to proceed? This will block all of the incoming transactions",
+      "reach_max_active_route_count": "you reached the maximum number of active routing scheme, please deactivate one first"
+
+
+    },
+    "default_route": {
+      "default_route": "Default Route",
+      "route_required": "route is needed"
+
+    },
+    "routing_strategy": {
+      "add_routing_strategy": "Add Routing Strategy",
+      "routing_strategy": "Routing Strategy",
+      "choose_strategy": "Choose Strategy",
+      "choose_connector": "Choose Connector",
+      "connector": "Connector",
+      "edit_routing_strategy":"Edit Routing Strategy"
+
+
+    },
+    "routing_alert": {
+      "cancel_save_routing_details": "are you sure you want to cancel the edits?"
+
+    },
+    "routing_scheme_details": {
+      "add_condition": "Add condition",
+      "attribute": "Attribute",
+      "operator": "Operator",
+      "select_attribute_placeholer": "select attribute",
+      "select_Operator_placeholer": "select operator",
+      "add_route": "Add route",
+      "conditional_rules": "Conditioned Rules",
+      "routing_warning_issue": "Route not completed",
+      "value": "value",
+      "value_placeholder": "Enter value",
+      "selec_value_placeholder": "select value",
+      "edit_condition": "Edit condition"
+    },
+    "priority_route":{
+      "priority":"Priority",
+      "add_bank":"Add Bank"
+    }
+  }
+}

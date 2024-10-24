@@ -1,0 +1,6 @@
+[dir="rtl"]{
+    .p-paginator-first ,.p-paginator-prev,
+    .p-paginator-next,.p-paginator-last{
+        transform: rotate(180deg);
+    }
+}
